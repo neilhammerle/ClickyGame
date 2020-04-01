@@ -1,0 +1,90 @@
+.Header {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  height: 10vh;
+  color: greenyellow;
+  position: fixed;
+  width: 100%;
+}
+
+.Header div {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.Header div a {
+  padding: 15px;
+  font-size: 20px;
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #000;
+  color: greenyellow;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 20px;
+}
+
+.Title p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.gameApp {
+  display: flex;
+  width: 100%;
+  background-color: #000; 
+  justify-content: center;
+  align-items: center;
+  flex-flow: "row wrap";
+}
+
+.Card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+.Card > div {
+  flex-basis: 25%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card div img {
+  height: 75%;
+  width: 75%;
+  margin: 8px 25px;
+  border: 5px solid greenyellow;;
+  border-radius: 3px;
+}
+.Card > div:hover {
+  transform: scale(1.05);
+  transition: 0.1s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Footer {
+  display: flex;
+  font-family: sans-serif;
+  height: 10vh;
+  background-color: #000;
+  color: greenyellow;
+  justify-content: center;
+  align-items: center;
+}
